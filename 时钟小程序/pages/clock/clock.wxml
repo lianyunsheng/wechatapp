@@ -1,0 +1,13 @@
+<!--pages/clock/clock.wxml-->
+<view id='v1'>
+  <block wx:for='123456789012'>
+    <view id='numbPosition' style='transform:rotate({{index*30+120}}deg)'>
+      <view id='numb' style='transform:rotate({{-120-index*30}}deg)'>{{index+1}}</view>
+    </view>
+  </block>
+  
+  <view id='hour' style='transform:rotate({{hour}}deg);'></view>
+  <view id='minute' style='transform:rotate({{minute}}deg);'></view>
+  <view id='second' style='transform:rotate({{second}}deg);'></view>
+  <view id='v2'></view>
+</view>

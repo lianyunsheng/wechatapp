@@ -1,0 +1,65 @@
+/* pages/clock/clock.wxss */
+#v1{
+  width:150px;
+  height:150px;
+  background-color: #999999;
+  border: 4px solid black;
+  border-radius: 50%;
+  position: absolute;
+  left:50%;
+  top:50%;
+  margin:-75px 0 0 -75px;
+}
+#numbPosition{
+  width:71px;
+  height:16px;
+  position:absolute;
+  top:67px;
+  left:4px;
+  font-size: 12px;
+  transform-origin: right center;
+}
+#numb{
+  transform:rotate(-60deg);
+  float:left;
+}
+#hour{
+  width:10px;
+  height:40px;
+  background-color: rgb(245, 163, 163);
+  position:absolute;
+  left:70px;
+  top:35px;
+  transform-origin: bottom center;
+  border-radius:50%;
+}
+#minute{
+  width:6px;
+  height:50px;
+  background-color: rgb(168, 163, 245);
+  position:absolute;
+  left:72px;
+  top:25px;
+  transform-origin: bottom center;
+  border-radius:50%;
+}
+#second{
+  width:2px;
+  height:60px;
+  background-color: rgb(143, 71, 137);
+  position:absolute;
+  left:74px;
+  top:15px;
+  transform-origin: bottom center;
+  border-radius:50%;
+}
+#v2{
+  width:16px;
+  height:16px;
+  position:absolute;
+  border-radius:50%;
+  background-color: #000;
+  left:50%;
+  top:50%;
+  margin:-8px 0 0 -8px;
+}
